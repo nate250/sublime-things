@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+@ngdoc service
+* @name ${1:[module]}.service:${2:[name]}
+* ${3:@requires}
+*
+* @description
+* $4
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>$ngsvc</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js, source.coffee</scope>
+	<description>ngdocs set for a service class</description>
+</snippet>

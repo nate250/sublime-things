@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+@ngdoc object
+* @name ${1:[module]}.service:${2:[service]}.${3:[method]}
+* @methodof $1.service:$2
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>$ngsvcm</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js, source.coffee</scope>
+	<description>ngdocs set for a service class</description>
+</snippet>
