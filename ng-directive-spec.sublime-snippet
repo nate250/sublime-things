@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+describe('DIRECTIVE: $1', function() {
+  beforeEach(module($2));
+
+  var \$compile, element, \$scope;
+
+  beforeEach(inject(function(_\$compile_, \$rootScope) {
+    \$compile = _\$compile_;
+    \$scope = \$rootScope.\$new();
+  }));
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>ng-directive-spec</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

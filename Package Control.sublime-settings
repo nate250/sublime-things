@@ -1,0 +1,26 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AngularJS Snippets",
+		"DocBlockr",
+		"GitGutter",
+		"Grunt",
+		"Javascript Beautify",
+		"JavaScriptNext - ES6 Syntax",
+		"LineEndings",
+		"Markdown Preview",
+		"ngdoc snippets",
+		"Origami",
+		"Package Control",
+		"Sass",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-jscs",
+		"SublimeLinter-jshint",
+		"SublimeLinter-json"
+	]
+}

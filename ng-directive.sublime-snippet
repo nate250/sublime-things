@@ -1,0 +1,31 @@
+<snippet>
+  <content><![CDATA[
+(function() {
+  'use strict';
+
+  angular
+    .module('${1:module}')
+    .directive('${2:directive}', directive);
+
+  directive.\$inject = [${3:deps}];
+  function directive(${3/\'//g}) {
+    return {
+      restrict: '$4',
+      replace: ${5:true},
+      bindToController: true,
+      controllerAs: '$2',
+      controller: Controller
+    };
+  }
+
+  Controller.\$inject = [${6:deps}];
+  function Controller(${6/\'//g}) {
+
+  }
+})();
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>ng-directive</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>
