@@ -1,2 +1,8 @@
 SublimeLinter
 Preferences.sublime-settings
+/Package Control.cache
+/Package Control.user-ca-bundle
+/Package Control.last-run
+/Package Control.merged-ca-bundle
+/Package Control.sublime-settings
+/Package Control.system-ca-bundle
